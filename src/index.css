@@ -13,7 +13,7 @@ section {
     flex-grow: 1;
 }
 
-section:last-of-type {
+aside {
     background-color: #adacb5;
 }
 
