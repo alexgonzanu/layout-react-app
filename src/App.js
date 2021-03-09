@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Container className="contenedor">
-      <Row as="header">
+    <Container className="contenedor d-flex flex-column">
+      <Row as="header" className="align-items-center text-white px-3">
         <h1>Título</h1>
       </Row>
       <Row as="main">
@@ -42,7 +42,7 @@ function App() {
           </ul>
         </Col>
       </Row>
-      <Row as="footer">
+      <Row as="footer" className="justify-content-center align-items-center text-white pt-3">
         <p>Texto del footer</p>
       </Row>
     </Container>
