@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 function App() {
   return (
     <Container className="contenedor d-flex flex-column">
-      <Row as="header" className="align-items-center text-white px-3">
-        <h1>Título</h1>
+      <Row as="header" className="align-items-center text-white">
+        <Col as="h1">Título</Col>
       </Row>
       <Row as="main">
         <Col xs={12} md={8} as="section">
@@ -42,7 +42,7 @@ function App() {
         </Col>
       </Row>
       <Row as="footer" className="justify-content-center align-items-center text-white pt-3">
-        <p>Texto del footer</p>
+        <Col as="p" className="text-center">Texto del footer</Col>
       </Row>
     </Container>
   );
